@@ -1887,35 +1887,35 @@ body {
     margin-top: 2.5rem;
   }
 
-  .services-feature {
+  .services-feature,
+  .services-card-image,
+  .services-card-text,
+  .services-card-bath,
+  .services-card-maintenance {
     grid-column: auto;
     grid-row: auto;
+    max-width: none;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .services-feature {
     min-height: 38rem;
   }
 
-  .services-card-image,
-  .services-card-text {
-    grid-column: auto;
-    grid-row: auto;
-  }
-
-  .services-card-bath,
-  .services-card-maintenance {
+  .services-card-bath {
     position: relative;
     left: auto;
     bottom: auto;
     width: auto;
   }
 
-  .services-card-bath {
-    margin-top: -2.5rem;
-    margin-left: auto;
-    max-width: 18rem;
-  }
-
   .services-card-maintenance {
-    margin-top: 0;
-    max-width: 20rem;
+    position: relative;
+    left: auto;
+    bottom: auto;
+    width: auto;
   }
 
   .about-atmosphere-a {
